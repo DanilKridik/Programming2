@@ -91,7 +91,7 @@
                             Margin="{StaticResource DefaultMargin}"
                             Command="{Binding AddCommand}"
                             Content="Add"
-                            IsEnabled="{Binding IsReadOnlyTextBoxes}"/>
+                            IsEnabled="{Binding IsReadOnlyTextBoxes}" Click="Button_Click"/>
                         <Button
                             Grid.Column="1"
                             Height="{StaticResource DefaultButtonHeightValue}"
