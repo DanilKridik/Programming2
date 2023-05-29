@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using CommunityToolkit.Mvvm.ComponentModel;
-using Contacts.Model;
+using Model;
 
-namespace Contacts.ViewModel
+namespace ViewModel
 {
     public class ContactVM : ObservableValidator, ICloneable
     {

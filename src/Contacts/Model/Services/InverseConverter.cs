@@ -2,8 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-
-namespace View.Model.Services
+namespace Model.Services
 {
     public class InverseConverter : IValueConverter
     {
